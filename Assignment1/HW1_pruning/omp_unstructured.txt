@@ -1,0 +1,40 @@
+nohup: ignoring input
+/home/myid/sb92570/CSCI8440_Efficient_Deep_Learning/Assignment1/HW1_pruning/main.py:464: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(args.load_model_path))
+Files already downloaded and verified
+Files already downloaded and verified
+Epoch 1/20 done, Loss: 0.1281, LR: 0.009938
+Epoch 2/20 done, Loss: 0.0999, LR: 0.009755
+Epoch 3/20 done, Loss: 0.0834, LR: 0.009455
+Epoch 4/20 done, Loss: 0.0721, LR: 0.009045
+Epoch 5/20 done, Loss: 0.0631, LR: 0.008536
+Epoch 6/20 done, Loss: 0.0499, LR: 0.007939
+Epoch 7/20 done, Loss: 0.0431, LR: 0.007270
+Epoch 8/20 done, Loss: 0.0379, LR: 0.006545
+Epoch 9/20 done, Loss: 0.0298, LR: 0.005782
+Epoch 10/20 done, Loss: 0.0230, LR: 0.005000
+Epoch 11/20 done, Loss: 0.0189, LR: 0.004218
+Epoch 12/20 done, Loss: 0.0169, LR: 0.003455
+Epoch 13/20 done, Loss: 0.0123, LR: 0.002730
+Epoch 14/20 done, Loss: 0.0099, LR: 0.002061
+Epoch 15/20 done, Loss: 0.0103, LR: 0.001465
+Epoch 16/20 done, Loss: 0.0070, LR: 0.000955
+Epoch 17/20 done, Loss: 0.0063, LR: 0.000545
+Epoch 18/20 done, Loss: 0.0062, LR: 0.000245
+Epoch 19/20 done, Loss: 0.0061, LR: 0.000062
+Epoch 20/20 done, Loss: 0.0056, LR: 0.000000
+(zero/total) weights of features.0.weight is: (0/1728). Sparsity is: 0.00%
+(zero/total) weights of features.3.weight is: (29491/36864). Sparsity is: 80.00%
+(zero/total) weights of features.7.weight is: (58982/73728). Sparsity is: 80.00%
+(zero/total) weights of features.10.weight is: (117964/147456). Sparsity is: 80.00%
+(zero/total) weights of features.14.weight is: (235929/294912). Sparsity is: 80.00%
+(zero/total) weights of features.17.weight is: (471859/589824). Sparsity is: 80.00%
+(zero/total) weights of features.21.weight is: (943718/1179648). Sparsity is: 80.00%
+(zero/total) weights of features.24.weight is: (1887436/2359296). Sparsity is: 80.00%
+(zero/total) weights of features.28.weight is: (1887436/2359296). Sparsity is: 80.00%
+(zero/total) weights of features.31.weight is: (1887436/2359296). Sparsity is: 80.00%
+---------------------------------------------------------------------------
+total number of zeros: 7520251, non-zeros: 1881797, overall sparsity is: 0.7999
+
+Test set: Average loss: 0.2698, Accuracy: 9355/10000 (93.5500%)
+

@@ -1,0 +1,9 @@
+**/*.log
+**/*.out
+**/.ipynb_checkpoints/
+**/*.pth
+**/*.pt
+**/*.pyc
+**/*.pkl
+**/*.DS_Store
+**/data.cifar10/

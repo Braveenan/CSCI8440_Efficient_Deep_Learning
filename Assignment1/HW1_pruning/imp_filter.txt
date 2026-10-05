@@ -1,0 +1,100 @@
+nohup: ignoring input
+/home/myid/sb92570/CSCI8440_Efficient_Deep_Learning/Assignment1/HW1_pruning/main.py:464: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(args.load_model_path))
+Files already downloaded and verified
+Files already downloaded and verified
+Epoch 1/20 done, Loss: 0.1533, LR: 0.009938
+Epoch 2/20 done, Loss: 0.1341, LR: 0.009755
+Epoch 3/20 done, Loss: 0.1091, LR: 0.009455
+Epoch 4/20 done, Loss: 0.0938, LR: 0.009045
+Epoch 5/20 done, Loss: 0.0859, LR: 0.008536
+Epoch 6/20 done, Loss: 0.0713, LR: 0.007939
+Epoch 7/20 done, Loss: 0.0564, LR: 0.007270
+Epoch 8/20 done, Loss: 0.0477, LR: 0.006545
+Epoch 9/20 done, Loss: 0.0390, LR: 0.005782
+Epoch 10/20 done, Loss: 0.0298, LR: 0.005000
+Epoch 11/20 done, Loss: 0.0194, LR: 0.004218
+Epoch 12/20 done, Loss: 0.0148, LR: 0.003455
+Epoch 13/20 done, Loss: 0.0116, LR: 0.002730
+Epoch 14/20 done, Loss: 0.0091, LR: 0.002061
+Epoch 15/20 done, Loss: 0.0065, LR: 0.001465
+Epoch 16/20 done, Loss: 0.0062, LR: 0.000955
+Epoch 17/20 done, Loss: 0.0055, LR: 0.000545
+Epoch 18/20 done, Loss: 0.0043, LR: 0.000245
+Epoch 19/20 done, Loss: 0.0047, LR: 0.000062
+Epoch 20/20 done, Loss: 0.0045, LR: 0.000000
+Epoch 1/20 done, Loss: 0.1432, LR: 0.009938
+Epoch 2/20 done, Loss: 0.1168, LR: 0.009755
+Epoch 3/20 done, Loss: 0.1030, LR: 0.009455
+Epoch 4/20 done, Loss: 0.0880, LR: 0.009045
+Epoch 5/20 done, Loss: 0.0799, LR: 0.008536
+Epoch 6/20 done, Loss: 0.0652, LR: 0.007939
+Epoch 7/20 done, Loss: 0.0528, LR: 0.007270
+Epoch 8/20 done, Loss: 0.0447, LR: 0.006545
+Epoch 9/20 done, Loss: 0.0350, LR: 0.005782
+Epoch 10/20 done, Loss: 0.0305, LR: 0.005000
+Epoch 11/20 done, Loss: 0.0214, LR: 0.004218
+Epoch 12/20 done, Loss: 0.0156, LR: 0.003455
+Epoch 13/20 done, Loss: 0.0135, LR: 0.002730
+Epoch 14/20 done, Loss: 0.0113, LR: 0.002061
+Epoch 15/20 done, Loss: 0.0082, LR: 0.001465
+Epoch 16/20 done, Loss: 0.0068, LR: 0.000955
+Epoch 17/20 done, Loss: 0.0067, LR: 0.000545
+Epoch 18/20 done, Loss: 0.0059, LR: 0.000245
+Epoch 19/20 done, Loss: 0.0061, LR: 0.000062
+Epoch 20/20 done, Loss: 0.0062, LR: 0.000000
+Epoch 1/20 done, Loss: 0.1546, LR: 0.009938
+Epoch 2/20 done, Loss: 0.1256, LR: 0.009755
+Epoch 3/20 done, Loss: 0.1070, LR: 0.009455
+Epoch 4/20 done, Loss: 0.0944, LR: 0.009045
+Epoch 5/20 done, Loss: 0.0817, LR: 0.008536
+Epoch 6/20 done, Loss: 0.0732, LR: 0.007939
+Epoch 7/20 done, Loss: 0.0621, LR: 0.007270
+Epoch 8/20 done, Loss: 0.0512, LR: 0.006545
+Epoch 9/20 done, Loss: 0.0429, LR: 0.005782
+Epoch 10/20 done, Loss: 0.0323, LR: 0.005000
+Epoch 11/20 done, Loss: 0.0254, LR: 0.004218
+Epoch 12/20 done, Loss: 0.0201, LR: 0.003455
+Epoch 13/20 done, Loss: 0.0166, LR: 0.002730
+Epoch 14/20 done, Loss: 0.0132, LR: 0.002061
+Epoch 15/20 done, Loss: 0.0108, LR: 0.001465
+Epoch 16/20 done, Loss: 0.0093, LR: 0.000955
+Epoch 17/20 done, Loss: 0.0072, LR: 0.000545
+Epoch 18/20 done, Loss: 0.0065, LR: 0.000245
+Epoch 19/20 done, Loss: 0.0068, LR: 0.000062
+Epoch 20/20 done, Loss: 0.0064, LR: 0.000000
+Epoch 1/20 done, Loss: 0.1941, LR: 0.009938
+Epoch 2/20 done, Loss: 0.1438, LR: 0.009755
+Epoch 3/20 done, Loss: 0.1296, LR: 0.009455
+Epoch 4/20 done, Loss: 0.1145, LR: 0.009045
+Epoch 5/20 done, Loss: 0.0971, LR: 0.008536
+Epoch 6/20 done, Loss: 0.0846, LR: 0.007939
+Epoch 7/20 done, Loss: 0.0738, LR: 0.007270
+Epoch 8/20 done, Loss: 0.0645, LR: 0.006545
+Epoch 9/20 done, Loss: 0.0557, LR: 0.005782
+Epoch 10/20 done, Loss: 0.0483, LR: 0.005000
+Epoch 11/20 done, Loss: 0.0327, LR: 0.004218
+Epoch 12/20 done, Loss: 0.0275, LR: 0.003455
+Epoch 13/20 done, Loss: 0.0220, LR: 0.002730
+Epoch 14/20 done, Loss: 0.0170, LR: 0.002061
+Epoch 15/20 done, Loss: 0.0150, LR: 0.001465
+Epoch 16/20 done, Loss: 0.0122, LR: 0.000955
+Epoch 17/20 done, Loss: 0.0112, LR: 0.000545
+Epoch 18/20 done, Loss: 0.0094, LR: 0.000245
+Epoch 19/20 done, Loss: 0.0102, LR: 0.000062
+Epoch 20/20 done, Loss: 0.0099, LR: 0.000000
+(empty/total) filter of features.0.weight is: (0/64). filter sparsity is: 0.00%
+(empty/total) filter of features.3.weight is: (25/64). filter sparsity is: 39.06%
+(empty/total) filter of features.7.weight is: (51/128). filter sparsity is: 39.84%
+(empty/total) filter of features.10.weight is: (51/128). filter sparsity is: 39.84%
+(empty/total) filter of features.14.weight is: (102/256). filter sparsity is: 39.84%
+(empty/total) filter of features.17.weight is: (102/256). filter sparsity is: 39.84%
+(empty/total) filter of features.21.weight is: (204/512). filter sparsity is: 39.84%
+(empty/total) filter of features.24.weight is: (204/512). filter sparsity is: 39.84%
+(empty/total) filter of features.28.weight is: (204/512). filter sparsity is: 39.84%
+(empty/total) filter of features.31.weight is: (204/512). filter sparsity is: 39.84%
+---------------------------------------------------------------------------
+total number of filters: 2944, empty-filters: 1147, overall filter sparsity is: 0.3896
+
+Test set: Average loss: 0.2894, Accuracy: 9276/10000 (92.7600%)
+
