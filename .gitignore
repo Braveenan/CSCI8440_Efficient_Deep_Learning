@@ -7,3 +7,4 @@
 **/*.pkl
 **/*.DS_Store
 **/data.cifar10/
+**/sensitivity_experiment/
