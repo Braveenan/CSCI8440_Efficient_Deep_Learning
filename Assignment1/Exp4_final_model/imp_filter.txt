@@ -1,0 +1,34 @@
+/home/myid/sb92570/CSCI8440_Efficient_Deep_Learning/Assignment1/Exp4_final_model/main.py:482: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(args.load_model_path))
+Files already downloaded and verified
+Files already downloaded and verified
+(empty/total) filter of features.0.weight is: (0/64). filter sparsity is: 0.00%
+(empty/total) filter of features.3.weight is: (19/64). filter sparsity is: 29.69%
+(empty/total) filter of features.7.weight is: (38/128). filter sparsity is: 29.69%
+(empty/total) filter of features.10.weight is: (38/128). filter sparsity is: 29.69%
+(empty/total) filter of features.14.weight is: (89/256). filter sparsity is: 34.77%
+(empty/total) filter of features.17.weight is: (89/256). filter sparsity is: 34.77%
+(empty/total) filter of features.21.weight is: (204/512). filter sparsity is: 39.84%
+(empty/total) filter of features.24.weight is: (230/512). filter sparsity is: 44.92%
+(empty/total) filter of features.28.weight is: (230/512). filter sparsity is: 44.92%
+(empty/total) filter of features.31.weight is: (230/512). filter sparsity is: 44.92%
+---------------------------------------------------------------------------
+total number of filters: 2944, empty-filters: 1167, overall filter sparsity is: 0.3964
+
+Test set: Average loss: 0.2647, Accuracy: 9334/10000 (93.3400%)
+
+(empty/total) filter of features.0.weight is: (0/64). filter sparsity is: 0.00%
+(empty/total) filter of features.3.weight is: (19/64). filter sparsity is: 29.69%
+(empty/total) filter of features.7.weight is: (38/128). filter sparsity is: 29.69%
+(empty/total) filter of features.10.weight is: (38/128). filter sparsity is: 29.69%
+(empty/total) filter of features.14.weight is: (89/256). filter sparsity is: 34.77%
+(empty/total) filter of features.17.weight is: (89/256). filter sparsity is: 34.77%
+(empty/total) filter of features.21.weight is: (204/512). filter sparsity is: 39.84%
+(empty/total) filter of features.24.weight is: (230/512). filter sparsity is: 44.92%
+(empty/total) filter of features.28.weight is: (230/512). filter sparsity is: 44.92%
+(empty/total) filter of features.31.weight is: (230/512). filter sparsity is: 44.92%
+---------------------------------------------------------------------------
+total number of filters: 2944, empty-filters: 1167, overall filter sparsity is: 0.3964
+
+Test set: Average loss: 0.2687, Accuracy: 9339/10000 (93.3900%)
+

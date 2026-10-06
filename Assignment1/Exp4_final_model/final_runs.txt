@@ -1,0 +1,10 @@
+nohup: ignoring input
+Starting OMP Unstructured on GPU 0
+Starting OMP Filter on GPU 1
+OMP Unstructured time: 0h 12m 43s
+Starting IMP Unstructured on GPU 0
+OMP Filter time: 0h 13m 1s
+Starting IMP Filter on GPU 1
+IMP Unstructured time: 0h 39m 29s
+IMP Filter time: 0h 39m 40s
+All four experiments finished
